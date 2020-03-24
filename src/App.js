@@ -1,24 +1,36 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+import Content from './components/MyContent';
+import MyGallery from './components/MyGalley';
+import Footer from './components/Footer';
+import Myheader from './components/Myheader';
+import Testinomial from './components/Testinomial';
+import Featured from './components/Featured';
+import Form from './components/Form';
+import MyContent from "./components/MyContent";
+import Slider from './components/Myheader/Slider';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Myheader/>
+  
+    <Featured/>
+    <Slider/>
+    <MyGallery/>
+    <MyContent/>
+  
+   
+    {/* <Myheader/>
+     <Featured/>
+      
+     <MyContent/>*/}
+      
+      <Testinomial/>
+    
+      <Footer/>
+  
+
     </div>
   );
 }

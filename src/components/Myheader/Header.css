@@ -1,0 +1,138 @@
+
+                body {font-family: Arial, Helvetica, sans-serif;}
+                * {box-sizing: border-box;}
+                .centered{
+                    position:absolute;
+                    top:25%;
+                    left:20%;
+                
+                    color:white;
+                    font-size: 27px;
+                    color:white;
+                }
+                .mybutton {
+                    background-color: #ffff00; 
+                    color: white; 
+                    border: 2px solid #ffff00;
+                    padding: 16px 32px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                    font-size: 16px;
+                    margin: 4px 2px;
+                    transition-duration: 0.4s;
+                    cursor: pointer;
+                    position:absolute;
+                    top:100%;
+                    left:30%;
+                  }
+                  
+                  .mybutton:hover {
+                    background-color: #f44336;
+                    color: white;
+                  }
+                  .form-inline{
+                      position:absolute;
+                      top:160%;
+                      left:1%;
+                  }
+                  {/* form css*/}
+                  body {font-family: Arial, Helvetica, sans-serif;}
+                * {box-sizing: border-box;}
+                
+                .form-inline {  
+                  display: flex;
+                  flex-flow: row wrap;
+                  align-items: center;
+                }
+                
+                .form-inline label {
+                  margin: 5px 10px 5px 0;
+                }
+                
+                .form-inline input {
+                  vertical-align: middle;
+                  margin: 5px 10px 5px 0;
+                  padding: 10px;
+                  background-color: #fff;
+                  border: 1px solid #ddd;
+                }
+                
+                .form-inline button {
+                  padding: 10px 20px;
+                  background-color: dodgerblue;
+                  border: 1px solid #ddd;
+                  color: white;
+                  cursor: pointer;
+                }
+                
+                .form-inline button:hover {
+                  background-color: royalblue;
+                }
+                
+                @media (max-width: 800px) {
+                  .form-inline input {
+                    margin: 10px 0;
+                  }
+                  
+                  .form-inline {
+                    flex-direction: column;
+                    align-items: stretch;
+                  }
+                }
+                  
+                
+                .bg-img {
+                
+                 
+                  min-height: 600px;
+                  background-position: center;
+                  background-repeat: no-repeat;
+                  background-size: cover;
+                   position: relative;
+                }
+                .container {
+                  position: absolute;
+                  margin: 20px;
+                  width: auto;
+                  left:120px;
+                
+                }
+                .topnav {
+                  overflow: hidden;
+                  background-color: #2D7BB0;
+                  border-style: ridge;
+                border-color:white;
+                 text-align: center;
+                 margin: auto;
+                }
+                .topnav a {
+                  float: left;
+                  color: #f2f2f2;
+                  text-align: center;
+                  padding: 14px 16px;
+                  text-decoration: none;
+                  font-size: 17px;
+                }
+                .topnav a:hover {
+                  background-color: #5499C7;
+                  color: yellow;
+                  cursor: pointer;
+                }
+                        
+
+                body, html {
+                    height: 100%;
+                  }
+                  .bg {
+                    /* The image used */
+                    background-image: url("");
+                  
+                    /* Full height */
+                    height: 100%;
+                  
+                    /* Center and scale the image nicely */
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                  }
