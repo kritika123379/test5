@@ -83,8 +83,7 @@
                   
                 
                 .bg-img {
-                
-                 
+              
                   min-height: 600px;
                   background-position: center;
                   background-repeat: no-repeat;
@@ -121,12 +120,11 @@
                 }
                         
 
-                body, html {
+              body, html {
                     height: 100%;
                   }
                   .bg {
-                    /* The image used */
-                    background-image: url("");
+                   
                   
                     /* Full height */
                     height: 100%;
