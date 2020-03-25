@@ -1,5 +1,5 @@
 import React from "react";
-import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
+import { MDBContainer, MDBCol } from "mdbreact";
 
 class MasksPage extends React.Component {
   render() {

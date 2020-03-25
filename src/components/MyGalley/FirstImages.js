@@ -17,10 +17,11 @@ class FirstImages extends Component {
       <MDBRow className="card_wrapper"  
       style={{
         marginTop:"250px",
-        marginBottom:"80px"
+        marginBottom:"150px",
+      
       }}>
-     
-      <MDBCol style={{width:"200px", height:"200px"}}>
+  
+      <MDBCol style={{width:"100px", height:"100px"}}>
           <MDBCard
             className="card-image"
             style={{
@@ -45,11 +46,13 @@ class FirstImages extends Component {
             </div>
             <div style={{textAlign:"center",marginTop:"1px",backgroundColor:"white",padding:"20px"}}>
             <h5 > The Grounds</h5>
-            <p style={{backgroundColor:"white",}}> Do IT Yourself Weddings At  The alawara Mention.</p>
+            <p style={{backgroundColor:"white"}}> Do IT Yourself Weddings At  The alawara Mention.</p>
             </div>
             </MDBCard>
         </MDBCol>
-        <MDBCol>
+  
+
+        <MDBCol  style={{width:"100px", height:"100px"}}>
           <MDBCard
             className="card-image"
             style={{
@@ -83,7 +86,9 @@ class FirstImages extends Component {
             </div>
           </MDBCard>
         </MDBCol>
-        <MDBCol>
+      
+      
+        <MDBCol style={{width:"100px", height:"100px"}}> 
           <MDBCard
             className="card-image"
             style={{
@@ -113,6 +118,7 @@ class FirstImages extends Component {
             </div>
           </MDBCard>
         </MDBCol>
+      
          
       </MDBRow>
       </div>
