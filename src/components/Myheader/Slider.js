@@ -2,14 +2,17 @@ import React from "react";
 import { MDBRow, MDBCol,   MDBContainer } from "mdbreact";
 
 
+
+
 class Slider extends React.Component {
 
 render() {
 return (
 <div>
 
-  <MDBContainer>
-    <MDBRow className="pt-5 pb-4" style={{marginTop:"20px",marginBottom:"50px"}}>
+  <MDBContainer style={{backgroundColor:"white"}}>
+    
+    <MDBRow className="pt-5 pb-4" style={{marginTop:"20px",marginBottom:"50px",backgroundColor:"white"}}>
       
       <MDBCol md="12" className="text-center">
       <h3 style={{color:"blue"}}>Welcome To The Alawara Mention</h3><br/>
