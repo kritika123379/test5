@@ -24,7 +24,7 @@ function Reactresponsive() {
     return (
         <div>
            
-        <div  style={{paddingLeft:"160px"}}>
+        <div  style={{paddingLeft:"160px",paddingTop:"20px",marginTop:"1px"}}>
         <h4 style={{color:"blue",textUnderline:"black"}}>Gallery</h4>
         <ResponsiveGallery imageMaxWidth={"l: 100"} screenWidthSizes ={"s:600"}images={images}  colsPadding={'xl: 4'}imagesPaddingBottom={"xxl:4"}imagesPaddingLeft={"xs:4"}/>  
         </div>
